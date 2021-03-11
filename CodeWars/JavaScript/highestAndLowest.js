@@ -18,6 +18,7 @@ function highAndLow(numbers){
     let highestElement = numbers[0];
     for (var i = 0; i < numbers.length; i++) {
       if (+numbers[i] <= +smallestElement) {
+       smallestElement = numbers[i];
       }
       if (+numbers[i] >= +highestElement) {
         highestElement = numbers[i];
